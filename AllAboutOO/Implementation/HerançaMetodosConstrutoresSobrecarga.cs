@@ -5,7 +5,7 @@ using AllAboutOO.Controllers;
 namespace AllAboutOO.Class
 {
 
-    public class Aluno : Person
+    public class Aluno : Pessoa
 
     {
 
@@ -22,7 +22,7 @@ namespace AllAboutOO.Class
             //Aqui fica o código do método destrutor
         }
 
-        //Atributos especificos da Classe Pessoa. Os outros atributos Nome , Sobrenome, CPF, DataDeNascimento, são herdados da classe Person
+        //Atributos especificos da Classe Pessoa. Os outros atributos Nome , Sobrenome, CPF, DataDeNascimento, são herdados da classe Pessoa
         public long Matricula { get; set; }
         public string DataDeCadastro { get; set; }
 
@@ -48,11 +48,11 @@ namespace AllAboutOO.Class
         }
 
 
-        /* Na classe aluno estamos fazendo uma Herança, herdando atributos e métodos da classse Person. Vamos pensar no seguinte, um aluno tem os mesmos atributos da 
-           classe Person, um Aluno tem nome, sobrenome, data de nascimento, Rua, Bairro, Telefone Celuler e etc. Para não precisar reescrever esses atributos em outra classe
+        /* Na classe aluno estamos fazendo uma Herança, herdando atributos e métodos da classse Pessoa. Vamos pensar no seguinte, um aluno tem os mesmos atributos da 
+           classe Pessoa, um Aluno tem nome, sobrenome, data de nascimento, Rua, Bairro, Telefone Celuler e etc. Para não precisar reescrever esses atributos em outra classe
            implementaremos a herança. A interface é implementada da seguinte forma, SuaClasse : ClasseQueQueroHerdar.
 
-           Note que no método NovoAluno(), estamos preenchendo atributos que estão na classe Person e foram herdados para a classe Aluno. Os atributos Matricula e Data de Cadastro
+           Note que no método NovoAluno(), estamos preenchendo atributos que estão na classe Pessoa e foram herdados para a classe Aluno. Os atributos Matricula e Data de Cadastro
            não foram herdados pois são atributos criados dentro da classe Aluno e por isso são atriutos específicos dessa classe, ou seja, nem toda pessoa tem Matricula e Data de Cadastro.
 
         */

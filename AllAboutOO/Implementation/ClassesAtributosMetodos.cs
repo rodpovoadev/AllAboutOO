@@ -2,7 +2,7 @@
 
 namespace AllAboutOO.Controllers
 {
-    public class Person
+    public class Pessoa
     {
         public string CPF { get; set; }
         public string Nome { get; set; }
@@ -13,7 +13,7 @@ namespace AllAboutOO.Controllers
         public string Bairro { get; set; }
         public int Numero { get; set; }
 
-        //Person é uma classe, as classes foram inspiradas no mundo real. Podemos associar uma classe ao ato de denomiar uma entidade que compartilha 
+        //Pessoa é uma classe, as classes foram inspiradas no mundo real. Podemos associar uma classe ao ato de denomiar uma entidade que compartilha 
         //alguns comportamentos e que possuem um conjunto de propriedades comuns.
 
         //CPF, Nome , Sobrenome , DataDeNascimento, TelefoneCelular , Rua, Bairro e Numero sáo propriedades da classe pessoa, ou seja não variáveis que poderam conter
@@ -26,11 +26,11 @@ namespace AllAboutOO.Controllers
 
         }
 
-        public Person CriarNovaPessoa()
+        public Pessoa CriarNovaPessoa()
 
         {
 
-            Person pessoa = new Person();
+            Pessoa pessoa = new Pessoa();
 
             pessoa.CPF = "100.677.243-55";
             pessoa.Nome = "Carlos";
@@ -68,13 +68,13 @@ namespace AllAboutOO.Controllers
 
         Se é necessário retornar algo dentro do método. Faremos public + tipo do retorno // int ou string ou double ou algum objeto // + NomeDoMetodo()
         ao final do método temos que colocar a palavra return + //O que estamos retornando//. Podemos ver esse exemplo no método CriarNovaPessoa(), que retorna um
-        objeto do tipo Person.
+        objeto do tipo Pessoa.
 
         Objetos são instâncias de uma classe. Indo um pouco mais a fundo objetos são  basicamente um bloco de memória que foi atribuído e configurado de acordo com o modelo.
 
-        No treço do código / Person pessoa = new Person(); / estamos instânciando a classe Person para uso, pessoa é um objeto instanciado para essa classe. Esse objeto pessoa
-        tera acesso a todos os atributos e métodos da classe Person.
-        Podemos observar isso no código do método CriarNovaPessoa(). Podemos acessar o atributo nome da classe person fazendo pessoa.Nome = "Carlos";
+        No treço do código / Pessoa pessoa = new Pessoa(); / estamos instânciando a classe Pessoa para uso, pessoa é um objeto instanciado para essa classe. Esse objeto pessoa
+        tera acesso a todos os atributos e métodos da classe Pessoa.
+        Podemos observar isso no código do método CriarNovaPessoa(). Podemos acessar o atributo nome da classe Pessoa fazendo pessoa.Nome = "Carlos";
 
         O método ValidarCPF() recebe um variável string de parâmetro, esses parâmetros são utilizados quando queremos receber alguma informação de quem está chamando o
         método. Esse parâmetro será utilizado na lógica dentro do método.
