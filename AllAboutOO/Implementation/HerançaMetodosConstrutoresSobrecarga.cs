@@ -71,7 +71,7 @@ namespace AllAboutOO.Class
        */
 
         //Método para validar um campo
-        public bool ValidField(long matricula)
+        public bool ValidaCampos(long matricula)
         {
             if (matricula == 0)
             {
@@ -84,7 +84,7 @@ namespace AllAboutOO.Class
         }
 
         //Sobrecarga do método acima
-        public bool ValidField(string CPF)
+        public bool ValidaCampos(string CPF)
         {
 
             if (CPF.Length == 11)

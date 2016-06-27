@@ -26,7 +26,7 @@ namespace AllAboutOO.Controllers
 
         }
 
-        public Pessoa CriarNovaPessoa()
+        public Pessoa CriaNovaPessoa()
 
         {
 
@@ -44,7 +44,7 @@ namespace AllAboutOO.Controllers
             return pessoa;
         }
 
-        public bool ValidarCPF(string CPF)
+        public bool ValidaCPF(string CPF)
         {
 
             if (CPF.Length == 14)
