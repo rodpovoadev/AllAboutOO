@@ -1,4 +1,6 @@
-﻿namespace AllAboutOO.Controllers
+﻿/*Autor: Rodolfo Póvoa Leal */
+
+namespace AllAboutOO.Controllers
 {
     public class Person
     {

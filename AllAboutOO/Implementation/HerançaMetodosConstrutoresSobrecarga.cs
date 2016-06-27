@@ -1,7 +1,4 @@
-﻿/*Autor: Rodolfo Póvoa Leal
-  
-
- */
+﻿/*Autor: Rodolfo Póvoa Leal */
 
 using AllAboutOO.Controllers;
 

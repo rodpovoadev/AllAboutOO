@@ -120,8 +120,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Class\ClassesAtributosMetodos.cs" />
-    <Compile Include="Class\HerançaMetodosConstrutoresSobrecarga.cs" />
+    <Compile Include="Implementation\ClassesAtributosMetodos.cs" />
+    <Compile Include="Implementation\HerançaMetodosConstrutoresSobrecarga.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
