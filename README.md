@@ -2,7 +2,7 @@ AllAboutOO é um repositório onde é mostrado na prática todos os conceitos de
 
 V1.0 - Em constante evolução ;)
 
-<p>As implementações estão na pasta /AllAboutOO/Implementation<p>
+<p>As implementações estão na pasta <a href="https://github.com/rodpovoadev/AllAboutOO/tree/master/AllAboutOO/Implementation">/AllAboutOO/Implementation<p></a>
 
 <pre>
 <a href="https://github.com/rodpovoadev/AllAboutOO/blob/master/AllAboutOO/Implementation/ClassesAtributosMetodos.cs"> 1 - Classes / Atributos / Métodos </a>
